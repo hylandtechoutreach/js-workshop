@@ -52,7 +52,7 @@ Direct the students to click the "Save" button in CodePen. They can save anonymo
 ### Buttons
 1. Add a `button` with the text "Quiz Me"
     - This button will start the quiz
-1. Add the `onclick` attribute and have it call a function called `quiz()`
+1. Add the `onclick` attribute and have it call a function called `startQuiz()`
     - Explain that **JavaScript** to make the button do something
     - We will come back to this shortly
 
@@ -78,6 +78,9 @@ body {
 
 ## Creating a Webpage - Interactivity with JavaScript
 Explain that JavaScript is the programming language of the web, that allows webpages to be _interactive_. Developers use JavaScript to trigger events, create animations, make games, and much more.
+
+### JavaScript Concepts Presentation (10m)
+Briefly introduce 
 
 ### Functions in JavaScript - Unplugged Activity (10m)
 Have the students open up Notepad. They will write instructions for a self-portrait, telling a computer how to draw them.
