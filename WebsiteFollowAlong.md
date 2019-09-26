@@ -80,7 +80,7 @@ body {
 Explain that JavaScript is the programming language of the web, that allows webpages to be _interactive_. Developers use JavaScript to trigger events, create animations, make games, and much more.
 
 ### JavaScript Concepts Presentation (10m)
-Briefly introduce 
+Briefly introduce **variables**, **`if` statements**, and **functions** using the [JavaScript Concepts](JavaScriptConcepts.pptx) presentation. 
 
 ### Functions in JavaScript - Unplugged Activity (10m)
 Have the students open up Notepad. They will write instructions for a self-portrait, telling a computer how to draw them.
