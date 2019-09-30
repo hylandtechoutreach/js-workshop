@@ -76,128 +76,105 @@ body {
 
 **Make sure the students save their work and copy down their URL!**
 
-## Creating a Webpage - Interactivity with JavaScript
+## Interactivity with JavaScript
 Explain that JavaScript is the programming language of the web, that allows webpages to be _interactive_. Developers use JavaScript to trigger events, create animations, make games, and much more.
 
-### JavaScript Concepts Presentation (10m)
+### JavaScript Concepts Presentation (20m)
 Briefly introduce **variables**, **`if` statements**, and **functions** using the [JavaScript Concepts](JavaScriptConcepts.pptx) presentation. 
 
-### Functions in JavaScript - Unplugged Activity (10m)
-Have the students open up Notepad. They will write instructions for a self-portrait, telling a computer how to draw them.
+#### Functions in JavaScript - Unplugged Activity
+Within the JavaScript Concepts presentation, there is an unplugged activity to practice writing algorithms in JavaScript pseudocode. The students should learn how to call JavaScript functions, and use made-up functions to create a **self-portrait algorithm**.
 
-#### Part 1: Learn about algorithms, functions, and JavaScript syntax. (10 minutes)
-Provide the students with the following definitions:
-- Next, you'll see how a complex activity, like drawing a portrait, can be broken down into a series of steps that can be done by a
-computer. The series of steps is an algorithm, and the individual actions are functions.
-- An **algorithm** is a series of specific instructions that can be applied to many situations. For example, a step-by-step recipe or a set of directions from one place to another are two examples of algorithms you might already use!
-- A **function** is one of the basic building blocks of a program. It's a type of instruction that's similar to a verb: a function does something.
-- To draw your portrait, you'll create a form of **pseudocode**. Pseudocode is a way to plan a computer program using human-friendly
-language instead of a computer language like JavaScript. It's not actual coding, but a written description of the key elements of an
-algorithm or program. It's used as a quick way of thinking about a program without completely writing it out in code.
-- As you know, in programming, the syntax must be specific, detailed, and exactly correct for a computer to understand it. For that
-reason, programmers often use pseudocode to help them flesh out ideas without the burden of being too exact.
-- The pseudocode you'll use to describe the key parts of your algorithm borrows its syntax from JavaScript.
+## Create a Webpage - Adding JavaScript to the CodePen (20m)
+The next step for the CodePen site is to add functionality to the "Quiz Me" button. It should pop up a quiz that allows the user to answer some questions and receive a final score. This is possible with JavaScript!
 
-Write the below function on a whiteboard or chart paper - or ask for a Senior to volunteer to do this:
-drawNose();
-Distribute the Code a Portrait handout to each Senior. Have the troop follow along on the handout as you share the Things to Know.
-THINGS TO KNOW:
-- Now, take a look at this example: drawNose();
-- In coding, when you use a function, you would say you're "calling a function."
-- In this case, calling the function drawNose(); makes the computer draw a nose on the computer screen.
-When you want to call a function in JavaScript or another programming language, you have to follow the syntax for writing a function in
-that programming language.
--
-Go over the below syntax for writing functions in JavaScript:
-- A function starts with a name, which can't have spaces in it, or use other special characters (except underscores '_').
-- The name can include numbers - as long as they're not at the beginning.
-- The name is directly followed by parentheses '()'. The parentheses tell JavaScript to run the function.
-- A semicolon shows that the function has ended, just as a period ends a sentence in English. A semicolon looks like this: ';'
-Share the Things to Know for the next part of the activity.
-THINGS TO KNOW:
-- Now, look at some code that doesn't work.
-- Remember the syntax for writing functions in JavaScript and see if you can spot the mistakes.
-Ask for another Senior to write the below examples of incorrect code on the whiteboard or chart paper. After she writes each code example,
-discuss as a troop why the example uses incorrect syntax.
-1st_eye();
-make cake;
-do-good ();
-makeCake()again;
-FOR EACH EXAMPLE, DISCUSS: Based on the JavaScript syntax we just went over, why won't the code work?
-Answers: The code won't work because...
-page 5
-© 2018 GSUSA. All rights reserved. Not for commercial use. This material is proprietary to GSUSA and may be used, reproduced, distributed exclusively by GSUSA staff,
-councils, Girl Scout volunteers, service units and/or troops solely in connection with Girl Scouting.
-1st_eye(); starts with a number.
-make cake; has a space and no parentheses.
-do-good (); uses a hyphen (or minus sign), which JavaScript doesn't allow, and a space between the name and the ().
-makeCake()again; has text after the parentheses.
-Part 2: Practice writing pseudocode to draw a smiley face. (5 minutes)
-Next, work together as a troop to write pseudocode that describes the steps to draw a smiley face.
-Walk Seniors through this process by sharing Things to Know.
-THINGS TO KNOW:
-Before we get started writing pseudocode, here's an important thing to know. In the Coding for Good badges, you'll experience what it's
-like to be BOTH a programmer and a computer.
--
-- When you create instructions for a computer, you're called a "programmer" because you're developing code.
-When you follow someone else' instructions, you're called a "computer" because you're acting as if you were a computer running the
-code.
--
-- Now, work as a team of "programmers" to create a short program with three or more tasks (the functions).
-- Together, the functions should make up an algorithm that could tell someone how to draw a smiley face.
-Work together to describe the steps to draw a smiley face. Ask for Senior to volunteer and write the steps on the whiteboard or chart paper.
-Note to Volunteers: As the troop lists the steps to draw a smiley face, they may notice that there are many ways to do it! This is good
-thinking.
-DISCUSS:
-- What shapes do you need to make a smiley face? (Possible answers: the shape of the face, eyes, nose, mouth, etc.)
-What are the steps you would use to tell someone how to draw a smiley face?(Possible answers: draw a circle, draw two dots inside
-the circle for the eyes, draw an upward semi-circle inside the circle for the smile, etc.)
--
-- Is there more than one way to do it? (Answer: Yes.)
-- Does the order of steps matter? (Answer: No.)
-- Is the size or placement of the shapes important? (Answer: Yes.)
-Part 3: Write code to draw a self-portrait. (5 minutes)
-Divide into pairs for the next part of the activity. Seniors will start in the role of "programmer" to write code for their self-portrait. In Part 4,
-they'll switch to the role of "computer" when they follow their partner's code to draw her portrait.
-Walk the troop through the activity by sharing Things to Know. Hand out the paper and pencils and review the "List of simple functions" on
-the Code a Portrait handout.
-THINGS TO KNOW:
-- Now, you'll use functions to write code for a computer to draw a self-portrait of you.
-You'll start as a "programmer" and write code for the program for your self-portrait. Then, you'll exchange programs with your partner
-and work as a "computer" to make a drawing based on the program she wrote for her self-portrait.
--
-The "List of simple functions" on the Code a Portrait handout has some examples of functions you can use to create a portrait
-algorithm. You can use these functions or write your own.
--
-For this activity, you can use pseudocode or even make up your own functions that use the correct syntax for JavaScript. Remember,
-though, once you hand over your algorithm to your partner, you cannot give her any additional instructions for her to "compute" your
-portrait.
--
-- Now, write an algorithm for a self-portrait of your face.
-- For now, keep your algorithm simple.
-Give Seniors 5 minutes to write their self-portrait algorithms. Try to keep it to no more than 5 minutes if possible, but make sure to allow time
-for questions and clarifications.
-If the troop needs an example, you can write the "Pseudocode and Simple Functions Example" below on the whiteboard or chart paper. It
-may help to write to the sections (the lines of pseudocode and the lines of functions) side by side.
-Pseudocode and Simple Functions Example
-This pseudocode:
-Get marker 
-page 6
-© 2018 GSUSA. All rights reserved. Not for commercial use. This material is proprietary to GSUSA and may be used, reproduced, distributed exclusively by GSUSA staff,
-councils, Girl Scout volunteers, service units and/or troops solely in connection with Girl Scouting.
-Draw circle in the middle of grid
-Draw right eye
-Draw left eye
-Draw nose in center of face
-Draw smile under nose
-Can be written as these functions:
-useMarker();
-drawFace();
-drawEye();
-drawEye();
-drawNose();
-drawSmile();
+### Defining the Function
+1. Expand the **JS** portion of the code in CodePen
+1. Create an empty function definition for the `startQuiz` function
+    - This requires the `function` keyword, the function name, parentheses, and curly brackets
+1. In the _body_ of the function, add an `alert` statement that welcomes the user
+    - If desired, introduce the Windows emoji keyboard (Windows key + semi-colon key)
+1. On the webpage, click the button to make sure it is hooked up properly!
+    - Note that this is possible because of the `onclick` attribute on the HTML button
 
+```js
+function startQuiz() {
+    alert("Welcome to my quiz 🙂");
+}
+```
 
-## Final
+### Receiving Information from the User
+1. Under the `alert`, above the `}`, create a couple new lines
+1. Declare a `name` _variable_. How can we ask the user for their name?
+    - Use a `prompt` to ask for the user's name
+1. On the next line, use an `alert` to say "Good luck" to the user (using their name!)
+
+```js
+var name = prompt("What is your name?");
+alert("Good luck " + name);
+```
+
+### Setting up the Quiz Variables
+1. Under the previous `alert`, above the `}`, create a couple new lines
+1. Declare a `points` variable
+    - This will be used to keep track of how many points the user has earned (i.e., how many questions they have answered correctly)
+    - How many points should the user have at the beginning? (`0`)
+1. Declare a `numberOfQuestions` variable
+    - To start, set this value to `2`
+
+```js
+var points = 0;
+var numberOfQuestions = 2;
+```
+
+### Asking a Question
+1. Under the `numberOfQuestions` variable declaration, above the `}`, create a couple new lines
+1. Ask the user a question using `prompt` (e.g., "What is my name?")
+1. Store the user's answer in a variable called `answer1`
+1. Under the `prompt`, create an `if` statement
+    - What should happen based on the user's answer?
+    - If the user is correct, they should get a point. Otherwise, they should not.
+1. Use `if`, parentheses, `===`, and curly brackets to set up the `if`
+1. Within the curly brackets, use `++` to increment the value of the `points` variable
+
+```js
+var answer1 = prompt("What is my name?");
+if (answer1 === "Joseph") {
+    points++;
+}
+```
+
+_NOTE: The students should check the answer against their own name_
+
+### Asking another Question
+1. Repeat the steps above to ask another question underneath the first question
+1. The differences will be:
+    - `answer2` instead of `answer1` for the variable
+    - Ask a different question
+    - Check a different answer
+
+```js
+var answer2 = prompt("Where do I live?");
+if (answer2 === "Lakewood") {
+    points++;
+}
+```
+
+_NOTE: The students should check the answer against where they live_
+
+### Calculating the Final Score
+1. Consider how to calculate the final score
+    - The score will be the number of points the user has, divided by the total number of questions
+    - Multiply this by 100 to show a percentage
+1. Under the final question, declare a `finalScore` variable
+1. Calculate the final score by dividing the `points` variable by the `numberOfQuestions` variable
+    - Multiply this by 100 to show a percentage
+1. Use an `alert` to show the final score to the user
+
+```js
+var finalScore = (points / numberOfQuestions) * 100;
+alert("Final score: " + finalScore + "%");
+```
+
+## Final CodePen Website
 https://codepen.io/jmaxwell/pen/BaBVVrO

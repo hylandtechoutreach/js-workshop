@@ -27,10 +27,15 @@ img {
 
 ## CSS Challenge:
 
-## JavaScript Challenge: Adding a question
+## JavaScript Challenge: Adding a Question
 1. Update the value of the `numberOfQuestions` variable to be `3` instead of `2`
 1. Underneath the `}` for the second `if` statement, add a new line
 1. Ask the user a third question using `prompt`, and store the user's answer in a variable named `answer3`
     - Ask any appropriate question!
 1. Add an `if` statement checking if the user entered the correct answer
 1. If the user _did_ enter the correct answer, increase their points!
+1. Add more additional questions if desired!
+
+## JavaScript Challenge: Final Message
+Instead of simply showing the final score to the user, display a message about the score. For example, if they score 100%, display a message that says "Good Job!"
+
