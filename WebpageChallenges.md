@@ -1,4 +1,4 @@
-# Website Challenges
+# Webpage Challenges
 Update your code in CodePen to complete the following challenges!
 
 #### Reference

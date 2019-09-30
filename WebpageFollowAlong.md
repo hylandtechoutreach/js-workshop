@@ -1,11 +1,11 @@
-# Website Follow-Along
-An activity to introduce JavaScript (starting with some HTML and CSS)
+# Webpage Follow-Along
+Students will use HTML and CSS build a webpage using [CodePen](https://codepen.io/pen). They will then learn about JavaScript, and use it to add a simple interactive quiz to their webpage.
 
 ## Explain HTML (5m)
 Start by showing an example webpage (e.g., https://en.wikipedia.org/wiki/SpongeBob_SquarePants) in Google Chrome. Talk to the students about their experience with the web. Then, right click on the page and view the source to show the HTML that builds the page.
 
 ### What is HTML
-- HTML tells an internet browser what to show on a website
+- HTML tells an internet browser what to show on a webpage
     - Ask students to name internet browsers (chrome, firefox, etc.)
 - HTML elements are the building blocks of a webpage
 - Browsers use HTML elements to display webpages
@@ -19,14 +19,14 @@ Students should follow along to create their own webpages! The webpage will be a
     - This allows developers to write HTML code and see it _render_ immediately
 1. Change the view so the code appears on the left and the webpage appears on the right
 1. Minimize the JS section
-1. In the HTML section, add an `h1` header element saying "My Cool Website"
+1. In the HTML section, add an `h1` header element saying "My Cool Webpage"
     - Explain that this is used for page titles, and there are also smaller header elements (`h2`-`h6`)
 1. Add a `p` paragraph element with a greeting
     - Explain that this is used for regular text on the page
 
 ```html
-<h1>My Cool Website</h1>
-<p>Hi, I'm me.  Welcome to my cool website.</p>
+<h1>My Cool Webpage</h1>
+<p>Hi, I'm me.  Welcome to my cool webpage.</p>
 ```
 
 #### _TIP: Saving Work_
@@ -76,13 +76,13 @@ body {
 
 **Make sure the students save their work and copy down their URL!**
 
-## Interactivity with JavaScript
+## Interactivity with JavaScript (20m)
 Explain that JavaScript is the programming language of the web, that allows webpages to be _interactive_. Developers use JavaScript to trigger events, create animations, make games, and much more.
 
-### JavaScript Concepts Presentation (20m)
+### JavaScript Concepts Presentation
 Briefly introduce **variables**, **`if` statements**, and **functions** using the [JavaScript Concepts](JavaScriptConcepts.pptx) presentation. 
 
-#### Functions in JavaScript - Unplugged Activity
+### Functions in JavaScript - Unplugged Activity
 Within the JavaScript Concepts presentation, there is an unplugged activity to practice writing algorithms in JavaScript pseudocode. The students should learn how to call JavaScript functions, and use made-up functions to create a **self-portrait algorithm**.
 
 ## Create a Webpage - Adding JavaScript to the CodePen (20m)
@@ -176,5 +176,5 @@ var finalScore = (points / numberOfQuestions) * 100;
 alert("Final score: " + finalScore + "%");
 ```
 
-## Final CodePen Website
+## Final CodePen Webpage
 https://codepen.io/jmaxwell/pen/BaBVVrO
