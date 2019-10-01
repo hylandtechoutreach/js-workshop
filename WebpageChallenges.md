@@ -14,11 +14,13 @@ https://codepen.io/jmaxwell/pen/BaBVVrO
 1. Add a `src` attribute to the `img` element, and paste in the URL for the image
 1. Finally, in the CSS section, select the `img` element and set the `height` so that it fits on the page
 
+**HTML**
 ```html
 <h2>A Cool Image</h2>
-<img src="https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzEwNC84MTkvb3JpZ2luYWwvY3V0ZS1raXR0ZW4uanBn">
+<img src="your_url_here">
 ```
 
+**CSS**
 ```css
 img {
     height: 200px;
@@ -28,7 +30,7 @@ img {
 ## CSS Challenge:
 
 ## JavaScript Challenge: Adding a Question
-1. Update the value of the `numberOfQuestions` variable to be `3` instead of `2`
+1. In the JavaScript section, update the value of the `numberOfQuestions` variable to be `3` instead of `2`
 1. Underneath the `}` for the second `if` statement, add a new line
 1. Ask the user a third question using `prompt`, and store the user's answer in a variable named `answer3`
     - Ask any appropriate question!
@@ -36,6 +38,16 @@ img {
 1. If the user _did_ enter the correct answer, increase their points!
 1. Add more additional questions if desired!
 
+_HINT: Use the existing questions in the code as a guide for creating new questions._
+
 ## JavaScript Challenge: Final Message
-Instead of simply showing the final score to the user, display a message about the score. For example, if they score 100%, display a message that says "Good Job!"
+Instead of simply showing the final score to the user, display a message about the score. For example, if they score 100%, display a message that says "Good Job!"  Under the `alert` at the bottom of the JavaScript `startQuiz` function, create an `if` statement.
+
+1. Start with `if`
+1. Add parentheses (`()`)
+1. Within the parentheses, compare the `finalScore` to `100` with a double-equals sign
+1. After the parentheses, 
+
+## Share your webpage and quiz!
+Send your URL to others (or have them sit at your computer) so they can view your webpage and take your quiz.
 
