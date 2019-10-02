@@ -1,3 +1,4 @@
+#!/bin/bash
 echo hi
 mkdir out
 cd out
