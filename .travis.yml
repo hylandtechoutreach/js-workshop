@@ -1,4 +1,4 @@
-language: general
+language: node_js
 
 deploy:
   provider: pages
