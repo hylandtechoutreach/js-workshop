@@ -2,4 +2,4 @@
 echo hi
 mkdir out
 cd out
-touch anotherfile.txt
+touch anotherfile2.txt
