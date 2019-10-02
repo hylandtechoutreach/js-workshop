@@ -5,8 +5,8 @@ SOURCE_BRANCH="master"
 TARGET_BRANCH="gh-pages"
 
 function doCompile {
-    chmod 600 compile.sh
-    ./compile.sh
+    mkdir out
+    touch out/anotherfile.txt
 }
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
