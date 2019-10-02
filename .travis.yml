@@ -1,7 +1,7 @@
-language: generic # don't install any environment
-
-script: bash ./deploy.sh
-env:
-  global:
-  - ENCRYPTION_LABEL: "a40bd0bd036a"
-  - COMMIT_AUTHOR_EMAIL: "jsmaxwelldev@gmail.com"
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: gh-pages
