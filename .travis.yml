@@ -1,0 +1,7 @@
+language: generic # don't install any environment
+
+script: bash ./deploy.sh
+env:
+  global:
+  - ENCRYPTION_LABEL: "a40bd0bd036a"
+  - COMMIT_AUTHOR_EMAIL: "jsmaxwelldev@gmail.com"
