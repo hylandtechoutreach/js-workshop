@@ -24,7 +24,7 @@ Update your code in CodePen to complete the following challenges!
     ![](https://i.imgur.com/6rOqJb3.png)  
 1. Click "Embed"  
     ![](https://i.imgur.com/OPzkSc2.png)  
-1. Click "COPY"
+1. Click "COPY"  
     ![](https://i.imgur.com/barvOys.png)
 1. In the HTML section of the CodePen, paste the video code!
     - Use `Ctrl`+`v` or right-click and select Paste
