@@ -26,6 +26,7 @@ After completing the Follow-Along, the Kahoot will test the students' retention.
 - Play: https://play.kahoot.it/v2/intro?quizId=0adcc19e-d582-4dd0-ad8b-cee9f2e84a23
 
 ## [Webpage Challenges](WebpageChallenges.md)
+The Webpage Challenges are meant to be completed by students individually. Instructors should assist the students as they work through the challenges. If a student wants to do something different, but still in the realm of JavaScript, they should be encouraged to do so.
 
 ## Suggested Schedule
 | Activity | Time |
