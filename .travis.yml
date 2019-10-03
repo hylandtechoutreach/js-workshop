@@ -2,14 +2,13 @@ language: generic
 
 script:
 - npm install -g gitbook-cli
-- rm -rf out
-- gitbook init out
-- gitbook build out
+- gitbook build
 deploy:
-  local_dir: out
+  local_dir: _book
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
   on:
     branch: master
+    
