@@ -85,6 +85,8 @@
 
     
         
+        <li class="header">Contents</li>
+        
         
     
         <li class="chapter " data-level="1.1" data-path="./">
@@ -161,7 +163,10 @@
                                 <h1 id="webpage-challenges">Webpage Challenges</h1>
 <p>Update your code in CodePen to complete the following challenges!</p>
 <h4 id="reference">Reference</h4>
-<p><a href="https://codepen.io/jmaxwell/pen/BaBVVrO" target="_blank">https://codepen.io/jmaxwell/pen/BaBVVrO</a></p>
+<ul>
+<li><a href="JavaScriptConcepts.pptx" target="_blank">JavaScript Concepts PowerPoint presentation</a></li>
+<li><a href="https://codepen.io/jmaxwell/pen/BaBVVrO" target="_blank">CodePen</a></li>
+</ul>
 <h2 id="html-challenge-add-an-image">HTML Challenge: Add an Image</h2>
 <ol>
 <li>In the HTML section, add an <code>h2</code> saying &quot;A Cool Image&quot;</li>
@@ -171,7 +176,7 @@
 </li>
 <li>Search for an image of a cat using Google Images in Chrome</li>
 <li>Right click and select <strong>Copy image address</strong><ul>
-<li>Do not click <strong>Copy image</strong>, that will not work!</li>
+<li>Do <em>not</em> click &quot;Copy image&quot;, that will not work!</li>
 </ul>
 </li>
 <li>Add a <code>src</code> attribute to the <code>img</code> element, and paste in the URL for the image</li>
@@ -217,14 +222,18 @@
 <li>This will mean that all styles apply to each <code>button</code> HTML element</li>
 </ul>
 </li>
-<li>Within the brackets, add a new declaration: <code>background-color: yellow;</code></li>
+<li>Within the brackets, add a new declaration: <code>background: yellow;</code></li>
 </ol>
 <h3 id="button-color-on-hover">Button Color on Hover</h3>
 <p>To make the button turn yellow on <em>hover</em>, update the <code>button</code> in the CSS so it is <code>button:hover</code> instead. This will mean that the styles <strong>only apply</strong> when the user hovers over the button.</p>
 <pre><code class="lang-css"><span class="hljs-selector-tag">button</span><span class="hljs-selector-pseudo">:hover</span> {
-  <span class="hljs-attribute">background-color</span>: yellow;
+  <span class="hljs-attribute">background</span>: yellow;
 }
 </code></pre>
+<h2 id="css-challenge-gradient-background">CSS Challenge: Gradient Background</h2>
+<p>Instead of setting one solid background color for the page with <code>background</code>, use a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/gradient" target="_blank">gradient</a>!</p>
+<h2 id="css-challenge-button-border">CSS Challenge: Button Border</h2>
+<p>Use the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border" target="_blank">border</a> property to add a border to the <code>button</code>.</p>
 <h2 id="javascript-challenge-add-a-question">JavaScript Challenge: Add a Question</h2>
 <ol>
 <li>In the JavaScript section, update the value of the <code>numberOfQuestions</code> variable to be <code>3</code> instead of <code>2</code></li>
@@ -238,8 +247,17 @@
 <li>Add more additional questions if desired!</li>
 </ol>
 <p><em>HINT: Use the existing questions in the code as a guide for creating new questions.</em></p>
+<h3 id="extra-challenge-multiple-choice-question">Extra Challenge: Multiple Choice Question</h3>
+<p>Add an additional question, but instead of asking the user to type the entire answer, give them options from which to choose. Allow the user to answer by entering a letter instead of the whole answer. Use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals" target="_blank">template literals</a> to create a <code>prompt</code> message with multiple lines of text. Template literals are just like other text blocks, but they use backticks (``) instead of quotes.</p>
+<p><strong>Example</strong></p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> answer7 = prompt(<span class="hljs-string">`What is my favorite food?
+A) Ice Cream
+B) Pizza
+C) Waffles
+D) Sandwiches`</span>);
+</code></pre>
 <h2 id="javascript-challenge-final-message">JavaScript Challenge: Final Message</h2>
-<p>Instead of simply showing the final score to the user, display a message about the score. For example, if they score 100%, display a message that says &quot;Good Job!&quot;</p>
+<p>Instead of simply showing the final score to the user, display a message about the score. If they score 100%, display a message that says &quot;Good Job!&quot;</p>
 <p>Under the <code>alert</code> at the bottom of the JavaScript <code>startQuiz</code> function, create an <code>if</code> statement:</p>
 <ol>
 <li>Start with <code>if</code></li>
@@ -252,6 +270,13 @@
 </li>
 </ol>
 <p><em>HINT: Use the existing <code>if</code> statements in the code as a guide for creating this <code>if</code> statement.</em></p>
+<h3 id="extra-challenge-background-change">Extra Challenge: Background Change</h3>
+<p>Update the code so that <em>if</em> the user scores a 100, the background color changes!</p>
+<p>Use this line of code to change the background color:</p>
+<pre><code class="lang-js"><span class="hljs-built_in">document</span>.body.style.background = <span class="hljs-string">&quot;green&quot;</span>;
+</code></pre>
+<h3 id="extra-challenge-2-more-messages">Extra Challenge 2: More Messages</h3>
+<p>Instead of only displaying a message if the user gets 100% of the questions correct, display <em>different</em> messages based on their final score! For example, if the user scores a 0%, display a message saying &quot;You fail.&quot; Use <code>if</code> statements and <code>alert</code>s to accomplish this challenge. </p>
 <h2 id="share-your-webpage-and-quiz">Share your webpage and quiz</h2>
 <p>Send your URL to others (or have them sit at your computer) so they can view your webpage and take your quiz!</p>
 
@@ -293,7 +318,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Webpage Challenges","level":"1.2","depth":1,"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"SUMMARY.md","ref":"SUMMARY.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"SUMMARY.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"WebpageChallenges.md","mtime":"2019-10-03T16:59:49.733Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-10-03T17:00:34.810Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Webpage Challenges","level":"1.2","depth":1,"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"SUMMARY.md","ref":"SUMMARY.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"SUMMARY.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"WebpageChallenges.md","mtime":"2019-10-04T14:08:58.858Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-10-04T14:09:41.287Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

@@ -69,7 +69,7 @@ The current webpage looks fairly boring. Explain that developers use CSS to make
 ```css
 body {
     color: pink;
-    background-color: black;
+    background: black;
     font-family: arial;
 }
 ```
