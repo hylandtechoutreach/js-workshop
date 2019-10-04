@@ -2,7 +2,8 @@
 Update your code in CodePen to complete the following challenges!
 
 #### Reference
-[https://codepen.io/jmaxwell/pen/BaBVVrO](https://codepen.io/jmaxwell/pen/BaBVVrO)
+- <a href="JavaScriptConcepts.pptx" target="_blank">JavaScript Concepts PowerPoint presentation</a>
+- [CodePen](https://codepen.io/jmaxwell/pen/BaBVVrO)
 
 ## HTML Challenge: Add an Image
 1. In the HTML section, add an `h2` saying "A Cool Image"
@@ -10,7 +11,7 @@ Update your code in CodePen to complete the following challenges!
     - This will not do anything yet...
 1. Search for an image of a cat using Google Images in Chrome
 1. Right click and select **Copy image address**
-    - Do not click **Copy image**, that will not work!
+    - Do _not_ click "Copy image", that will not work!
 1. Add a `src` attribute to the `img` element, and paste in the URL for the image
 
 ```html
@@ -54,16 +55,22 @@ h1 {
 1. At the bottom of the CSS section, make some new lines
 1. Create a new ruleset for "button" by adding `button` `{` and `}`
     - This will mean that all styles apply to each `button` HTML element
-1. Within the brackets, add a new declaration: `background-color: yellow;`
+1. Within the brackets, add a new declaration: `background: yellow;`
 
 ### Button Color on Hover
 To make the button turn yellow on _hover_, update the `button` in the CSS so it is `button:hover` instead. This will mean that the styles **only apply** when the user hovers over the button.
 
 ```css
 button:hover {
-  background-color: yellow;
+  background: yellow;
 }
 ```
+
+## CSS Challenge: Gradient Background
+Instead of setting one solid background color for the page with `background`, use a [gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient)!
+
+## CSS Challenge: Button Border
+Use the [border](https://developer.mozilla.org/en-US/docs/Web/CSS/border) property to add a border to the `button`.
 
 ## JavaScript Challenge: Add a Question
 1. In the JavaScript section, update the value of the `numberOfQuestions` variable to be `3` instead of `2`
@@ -76,8 +83,20 @@ button:hover {
 
 _HINT: Use the existing questions in the code as a guide for creating new questions._
 
+### Extra Challenge: Multiple Choice Question
+Add an additional question, but instead of asking the user to type the entire answer, give them options from which to choose. Allow the user to answer by entering a letter instead of the whole answer. Use [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) to create a `prompt` message with multiple lines of text. Template literals are just like other text blocks, but they use backticks (``) instead of quotes.
+
+**Example**
+```js
+var answer7 = prompt(`What is my favorite food?
+A) Ice Cream
+B) Pizza
+C) Waffles
+D) Sandwiches`);
+```
+
 ## JavaScript Challenge: Final Message
-Instead of simply showing the final score to the user, display a message about the score. For example, if they score 100%, display a message that says "Good Job!"
+Instead of simply showing the final score to the user, display a message about the score. If they score 100%, display a message that says "Good Job!"
 
 Under the `alert` at the bottom of the JavaScript `startQuiz` function, create an `if` statement:
 1. Start with `if`
@@ -89,6 +108,16 @@ Under the `alert` at the bottom of the JavaScript `startQuiz` function, create a
 
 _HINT: Use the existing `if` statements in the code as a guide for creating this `if` statement._
 
+### Extra Challenge: Background Change
+Update the code so that _if_ the user scores a 100, the background color changes!
+
+Use this line of code to change the background color:
+```js
+document.body.style.background = "green";
+```
+
+### Extra Challenge 2: More Messages
+Instead of only displaying a message if the user gets 100% of the questions correct, display _different_ messages based on their final score! For example, if the user scores a 0%, display a message saying "You fail." Use `if` statements and `alert`s to accomplish this challenge. 
+
 ## Share your webpage and quiz
 Send your URL to others (or have them sit at your computer) so they can view your webpage and take your quiz!
-
