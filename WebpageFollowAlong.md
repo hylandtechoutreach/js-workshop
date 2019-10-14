@@ -30,7 +30,7 @@ Students should follow along to create their own webpages! The webpage will be a
 ```
 
 #### _TIP: Saving Work_
-Direct the students to click the "Save" button in CodePen. They can save anonymously if they do not wish to make an account. Students should make note of their pen's URL so they can recover their code and share it!
+Direct the students to click the "Save" button in CodePen. They have to make an account in order to save. Students should make note of their pen's URL so they can recover their code and share it!
 
 ### Lists
 1. Add an `h2` for "My Favorite Foods" beneath the `p`
