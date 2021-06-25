@@ -4,7 +4,7 @@ This ~2hr workshop is designed for students with no programming experience in 7-
 ## [Webpage Follow-Along](WebpageFollowAlong.md)
 The Follow-Along is an instruction plan that walks through some basic HTML, CSS, and JavaScript concepts. The instructor should type the code on the projector, and have the students type along on their own computers. The instructor should ask students for suggestions about what to type.
 
-The Follow-Along starts by introducing the web, HTML, and CSS. After the JavaScript introduction, the Follow-Along continues by adding JavaScript to the 
+The Follow-Along starts by introducing the web, HTML, and CSS. After the JavaScript introduction, the Follow-Along continues by adding JavaScript to the website.
 
 ### [JavaScript Concepts](JavaScriptConcepts.pptx)
 Within the Follow-Along, there is a section to introduce JavaScript. The PowerPoint presentation includes the following concepts:
